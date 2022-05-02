@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Vogals ou cosoantes </h1>
+    Digite uma letra<input type="text" name="txtNac" id="txtNac">
+    <input type="button" value="VERIFICAR" onclick="verificar()">
+    <div id="resultado"></div>
+    <script>
+         function verificar(){
+             var letra = document.querySelector(`input#letra`)
+             var resultado = document.querySelector(`div#resultado`)
+             console.log(`A letra ${letra}`)
+             if (letra == 'a','e','i','o','u'){
+                 console.log(`À letra é vogal`)
+
+
+             }else{
+                 cosole.log(`a letra é consolante`)
+             }
+             }
+         }
+    </script>
+</body>
+</html>
